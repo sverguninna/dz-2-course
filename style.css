@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+};
+.body{
+    background-color: #000915;
+    font-family: 'Montserrat', sans-serif;
+};
+.top {
+    min-height: 1024px;
+    background-image: url(./img_1/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+};
+.introduction{
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:32px;
+};
+
+.text{
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 300;
+ font-size: 18px;
+ line-height: 32px;
+ color: #fffdfd;
+ width: 481px;
+ padding-top: 32px;
+};
+
+.for {
+    display: flex;
+    gap: 32px;
+    background: #000915;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+};
+.for__item{
+   width: 379px;
+    min-height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    font-style: normal;
+    box-sizing: border-box;
+    font-weight: 600;
+ font-size: 24px;
+ line-height: 32px;
+ display: flex;
+ color: #FFFFFF;
+ text-decoration-line: none;
+ align-items: flex-end;
+ padding: 32px;
+};
+.for__item:hover{
+   border: 3px solid #44D2FF;
+  
+};
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+};
+
+.for__item_1{
+    background-image: url(./img_1/Rectangle\ 6.jpg);
+};
+.for__item_2{
+    background-image: url(./img_1/Rectangle\ 7.jpg);
+};
+.for__item_3{
+    background-image: url(./img_1/Rectangle\ 8.jpg);
+};
+
+.top_heading{
+    font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+  font-size: 64px;
+ line-height: 78px;
+ display: flex;
+ align-items: center;
+ color: #FFFFFF;
+ width: 788px;
+};
+
+.button{
+    background: #9C0332;
+   border-radius: 30px;
+   width: 235px;
+  height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    box-sizing: border-box;
+    color: white;
+    
+};
+.button:hover{
+    background: #EB443F;
+};
