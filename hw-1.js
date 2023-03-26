@@ -30,12 +30,12 @@ let result= a%=b;
 alert(result); 
                                /* задание 7 = не разобралась с i++ */
  let num = 1;
-num += 5;
-num -= 3;
+5++;
+ 3--;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
+1++;
+1--;
 alert(num); 
                           /* задание 8 */
  let age=Number(prompt('Сколько вам лет'));
