@@ -4,10 +4,10 @@ alert(a);
 alert(a); 
               /* /* /* /* /*   /* задание 2 */
 
-/let yearRelease = 2008;
+let yearRelease = 2008;
 alert(yearRelease)  
                            /* задание 3 */
-let nameСreator='Brendan Eich';
+let nameСreator='Brendan Eich ';
 alert(nameСreator);
                           /* задание 4 */
  let x=10;
@@ -21,8 +21,8 @@ alert(sub);
 alert(mul);
 alert(del); 
                          /* Задание 5 */
- let result= 2**5;
-alert(result);  
+let  powerFive = 2**5;
+alert(powerFive );  
                         /* задание 6 */
  let a = 9;
 let b=2; 
