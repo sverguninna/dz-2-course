@@ -1,4 +1,4 @@
-let password = 'Пароль';
+ let password = 'Пароль';
 let question = String(prompt('Введите пароль'));
 let result = password === question ? alert('верно'): alert('Не верно');
  
@@ -17,22 +17,30 @@ let a = 2;
 let b = 3;
 alert(a + b); 
 
-let monthNumber= Number(prompt('Введите номер месяца'));
+let monthNumber= Number(prompt('Введите номер месяца')); 
 
 switch (monthNumber) {
-    case 12 || 1 || 2:
+    case 12 :
+    case 1:
+    case 2:
         alert('зима');
     break;
 
-    case 3 || 4 || 5:
+    case 3 :
+    case 4:
+    case 5:
        alert('весна');
     break;
 
-    case 6 || 7 || 8:
+    case 6:
+    case 7:
+    case 8:
       alert('лето');
     break;
 
-    case 9 || 10 || 11:
+    case 9:
+    case 10:
+    case 11:
         alert('осень');
     break;
 
