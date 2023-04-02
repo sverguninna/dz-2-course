@@ -108,3 +108,32 @@
 .button:hover{
     background: #EB443F;
 }
+
+@media (max-width: 767px)  { 
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top_heading{
+        font-size: 32px;
+     line-height: 39px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     width: 100%;
+
+    }
+    .text{
+        font-size: 14px;
+     line-height: 22px;
+     text-align: center;
+     width: 100%;
+    }
+    .game-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .introduction{
+        align-items: center;
+    } 
+ }
