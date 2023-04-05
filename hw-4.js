@@ -24,8 +24,8 @@ while (c>=7 && c<=22) {
 }
 
 
-for (let salary in user) { 
-    alert(`${salary} — зарплата ${user[salary]}`)
+for (let  property in user) { 
+    alert(`${property} — зарплата ${user[salary]}`)
 }; 
 
 let n =1000; 
@@ -34,4 +34,12 @@ while (num<5) {
     n/=2
     console.log(n);
     num++
+} 
+
+let firstFriday = Number(prompt("Введите дату первой пятницы"));
+
+let numberOfDayInMonth = Number(prompt("Введите количество дней в месяце"));
+
+for (let dayMonth = firstFriday; dayMonth <= numberOfDayInMonth; dayMonth+=7) {
+        console.log(`Сегодня пятница ${dayMonth}-е. Необходимо подготовить отчет.`)   
 }
