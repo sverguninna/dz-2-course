@@ -29,7 +29,6 @@
  line-height: 32px;
  color: #fffdfd;
  width: 481px;
- padding-top: 32px;
 }
 
 .game-cards {
@@ -108,8 +107,30 @@
 .button:hover{
     background: #EB443F;
 }
+.game-1{
+    gap: 34px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
 
-@media (max-width: 767px)  { 
+.game-catalog {
+    background: #000915;
+    display: flex;
+    gap: 134px;
+    justify-content: space-between;
+    padding-bottom: 85px;
+}
+
+.game_heading{
+    font-style: normal;
+  font-weight: 700;
+   font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px )  { 
     .center{
         padding-left: 16px;
         padding-right: 16px;
@@ -136,4 +157,24 @@
     .introduction{
         align-items: center;
     } 
+    .game-catalog{
+        display: flex;
+        flex-wrap: wrap;
+      align-items: center;
+       text-align: center;
+    }
+    .game-1{
+        display: flex;
+        align-items: center;
+       text-align: center;
+    }
+    .game_heading{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .game-img{
+        min-width: 33px;
+        width: 344px;
+       height: 236px;
+    }
  }
