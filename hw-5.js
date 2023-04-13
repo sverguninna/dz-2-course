@@ -62,6 +62,33 @@ function squaringData(questionNumber ) {
 } 
 squaringData(questionNumber)
 
+
+let circle1 = {
+    radius: 5,
+    getArea: function() {
+     return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+     return 2 * Math.PI * this.radius;
+    }
+   };
+   
+   let circle2 = {
+    radius: 10,
+    getArea: function() {
+     return Math.PI * this.radius ** 2;
+    },
+    getPerimeter: function() {
+     return 2 * Math.PI * this.radius;
+    }
+   };
+   
+   console.log(circle1.getArea()); // 78.53981633974483
+   console.log(circle1.getPerimeter()); // 31.41592653589793
+   console.log(circle2.getArea()); // 314.1592653589793
+   console.log(circle2.getPerimeter()); //62.83185307179586
+   
+
  const button = document.getElementById('btn');
  
 let questionMonths 
