@@ -76,20 +76,20 @@ console.log(result2);
 
  const getLengthWords =['слово', '', 'слог', 'длинное предложение', 'буква'];
 let lengthOneWords =[]
-function createArray() {
+function createArray( getLengthWords) {
     let s = getLengthWords.map(item=>(item.split('')))
     console.log(s);
     lengthOneWords= s.map(el=>el.length)
     return lengthOneWords
 }
-createArray()
+createArray(getLengthWords)
 console.log(lengthOneWords);
  
 
 const n = [-2, 3, 4,-5, 5, -6 ]
 let r =[]
-arrayFilter()
-function arrayFilter() {
+arrayFilter(n)
+function arrayFilter(n ) {
   r = n.filter(el=>el<=0) 
    return r
 }
