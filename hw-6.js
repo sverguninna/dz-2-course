@@ -71,8 +71,11 @@ for (let i = 0; i < plus.length; i++) {
 }
 
 const num= [2,4,5,1,4,7,9,8]
-let result2 = num.map(item=>(item*2))
+function numberSquared(num) {
+   let result2 = num.map(item=>(item*2))
 console.log(result2); 
+}
+numberSquared(num)
 
  const getLengthWords =['слово', '', 'слог', 'длинное предложение', 'буква'];
 let lengthOneWords =[]
