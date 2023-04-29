@@ -92,13 +92,13 @@ function WordGame () {
      alert(word)
      message1= prompt('чему равняеться первый элемент')
     message2= prompt('чему равняеться последний элемент')
-    if (words[0].toUpperCase === message1.toUpperCase && message2.toUpperCase() === words[6].toUpperCase ) {
+    if (words[0].toUpperCase() === message1.toUpperCase() && message2.toUpperCase() === words[6].toUpperCase() ) {
       alert('вы молодец')
       break
-    } else if(message1.toUpperCase() !== words[0].toUpperCase || message2.toUpperCase() !==  words[6].toUpperCase) {
+    } else if(message1.toUpperCase() !== words[0].toUpperCase() || message2.toUpperCase() !==  words[6].toUpperCase()) {
       alert("один неверен")
       break
-    } else  if(message1.toUpperCase() !== words[0].toUpperCase && message2.toUpperCase() !== words[6].toUpperCase) {
+    } else  if(message1.toUpperCase() !== words[0].toUpperCase() && message2.toUpperCase() !== words[6].toUpperCase()) {
       alert('лажа')
       break
     }
