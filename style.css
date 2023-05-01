@@ -130,19 +130,26 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 767px )  { 
+@media (max-width: 1200px ) and (min-width: 200px)  { 
     .center{
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    .body{
+            background-color: #000915;
+          
+     }
+
     .top_heading{
+        justify-content: center;
         font-size: 32px;
      line-height: 39px;
      display: flex;
      align-items: center;
      text-align: center;
      width: 100%;
-
+     box-sizing: border-box;
     }
     .text{
         font-size: 14px;
@@ -162,6 +169,7 @@
         flex-wrap: wrap;
       align-items: center;
        text-align: center;
+       flex-direction: column-reverse;
     }
     .game-1{
         display: flex;
@@ -173,7 +181,7 @@
         line-height: 39px;
     }
     .game-img{
-        min-width: 33px;
+        min-width: 350px;
         width: 344px;
        height: 236px;
     }
