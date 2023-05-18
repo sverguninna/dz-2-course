@@ -1,4 +1,4 @@
- const people = [
+  const people = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
     { name: 'Олег', age: 7 },
@@ -30,14 +30,14 @@ function isPositive(number) {
     }
     }
     function isMale(item) {
-      if (item.gender = 'male') {
+      if (item.gender === 'male') {
         return item
     }
     }
     function filter(arr, isMale) {
        const  filterPeople =[]
       for (let i = 0; i < arr.length; i++) {
-        const result= isMale(arr[i])
+        const result = isMale(arr[i])
         if (result) {
             filterPeople.push(result)
         }
@@ -78,7 +78,7 @@ function isPositive(number) {
    delayForSecond(function () {
       console.log('Привет, Глеб!');
    }) 
-
+ 
 function delayForSecond(cd) {
     setTimeout(() => {
         console.log('Прошла одна секунда');
@@ -92,6 +92,6 @@ function sayHi (name) {
     console.log(`Привет, ${name}!`);
 }
 
-() => {
-    delayForSecond(sayHi('Глеб'))
-}
+delayForSecond( () => sayHi('Глеб') )
+
+   
